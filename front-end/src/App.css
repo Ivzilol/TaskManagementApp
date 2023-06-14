@@ -1,0 +1,305 @@
+.App {
+  text-align: center;
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-container-item {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.tasks-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.admin-users-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.admin-users-container {
+  margin-top: 70px;
+}
+
+.admin-users-container-title {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.admin-users-table th, .admin-users-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.admin-users-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.admin-users-table tr:hover {
+  background-color: #ddd;
+}
+
+.admin-users-table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
+
+.admin-users-table-buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #faf3eb;
+  padding: 10px 90px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.nav .nav-home a {
+  text-decoration: none;
+  padding: 10px 90px;
+  color: #ef7d00;
+}
+
+.nav-button {
+  margin: 0 20px;
+  padding: 5px;
+  width: 100px;
+  border-radius: 20px;
+  border: 2px solid #ef7d00;
+  background: none;
+}
+
+.nav .nav-home a {
+  text-decoration: none;
+  padding: 10px 90px;
+  color: #ef7d00;
+}
+
+.login-container {
+  margin-top: 70px;
+  font-size: 20px;
+}
+
+.login-container-items {
+  margin: 10px;
+}
+
+.input-user {
+  margin-top: 10px;
+  width: 200px;
+  height: 20px;
+}
+
+.login-container-item-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.login-container-item-buttons button {
+  margin-right: 45px;
+  margin-left: 45px;
+  border-radius: 10px;
+  padding: 5px 8px;
+  background-color: #ef7d00;
+  color: white;
+  border: none;
+}
+
+.register {
+  height: 550px;
+  background-color: #04AA6D;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  align-content: center;
+  margin-top: 50px;
+  padding-bottom: 10px;
+}
+
+.register .register-form {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  align-self: center;
+}
+
+.register .register-form input {
+  border-radius: 20px;
+  padding: 5px;
+  width: 400px;
+  background: none;
+  border: 1px solid white;
+}
+
+.register .register-form input::placeholder {
+  color: white;
+  padding-left: 10px;
+}
+
+.register .register-form input, select, textarea {
+  color: white;
+  padding-left: 10px;
+}
+
+.register .register-form button {
+  margin-top: 10px;
+  border: 1px solid white;
+  border-radius: 20px;
+  width: 150px;
+  background: none;
+  color: white;
+}
+
+#validate-username {
+  margin-top: 10px;
+  color: red;
+  background-color: black;
+  border-radius: 10px;
+  padding: 3px 10px;
+}
+
+.homepage {
+  padding-top: 200px;
+  height: 400px;
+  background-color: #f2f2f2;
+}
+
+.homepage-title {
+  text-align: center;
+}
+
+.homepage-description {
+  text-align: center;
+  margin: 30px 300px;
+}
+
+.tasks {
+  margin-top: 50px;
+}
+
+.tasks-no-tasks {
+  margin-top: 100px;
+  color: black;
+}
+
+.tasks {
+  font-size: 20px;
+}
+
+.tasks-form label {
+  margin-top: 10px;
+}
+
+.tasks-form input{
+  margin-top: 10px;
+}
+
+.tasks-form-input-title {
+  width: 300px;
+}
+
+.tasks-form-input-description {
+  margin-top: 10px;
+  width: 300px;
+  height: 50px;
+}
+
+.tasks-form-input-priority {
+  width: 300px;
+  background-color: black;
+}
+
+.tasks-form-input-date {
+  width: 300px;
+}
+
+.tasks-form button {
+  margin-top: 10px;
+  width: 150px;
+  padding: 5px;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  background-color: black;
+}
+
+.tasks-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  font-size: 15px;
+}
+
+.tasks-container-items {
+
+  margin-right: 30px;
+}
+
+.tasks-container-item {
+  color: #ef7d00;
+  font-style: italic;
+  font-size: 20px;
+}
+
+.tasks-container-item-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.tasks-container-item-button button {
+  width: 100px;
+  color: white;
+  background-color: black;
+  border: none;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.edit-task-container {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.edit-task-button button {
+  margin-top: 10px;
+  width: 100px;
+  color: white;
+  background-color: black;
+  border: none;
+  border-radius: 10px;
+  padding: 5px;
+}
+
