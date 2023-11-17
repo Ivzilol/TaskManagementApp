@@ -17,7 +17,7 @@
 
 <h3>Features</h3>
 <hr>
-This project consists of two applications: one is a Spring Boot Rest API called бацк-енд and another is a ReactJS application called front-end
+This project consists of two applications: one is a Spring Boot Rest API called back-end and another is a ReactJS application called front-end
 Spring Boot Web Java backend application that exposes a REST API to manage tasks Its secured endpoints can just be accessed if an access token (JWT) is provided.
 In the application there are user/admin roles, the processing of the requests made by the user is carried out by the administrator.
 
